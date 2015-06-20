@@ -1,0 +1,12 @@
+##One time command
+git init
+git remote add origin https://github.com/manaskhatua/manaskhatua.git
+
+##For all updation to push in repository
+#go to the linked directory in your PC and then use the commands following
+git status
+git add <file name>
+git commit -m "message"
+git push -u origin master
+#userId: manaskhatua
+#password: swamiji mtech year
