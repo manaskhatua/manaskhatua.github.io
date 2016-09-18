@@ -12,18 +12,10 @@
 	<link href="lib/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
 	  <link href="css/custom.css" rel="stylesheet">
 
-	<!-- Custom styles for this template -->
-	<!--link href="starter-template.css" rel="stylesheet"-->
-
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
   </head>
 
   <body>
-
+	<!--############## HEADER ############################################################## -->
 	<div class="container">
 
 		<div class="row page-header">
@@ -52,22 +44,55 @@
 						<span class="icon-bar" style="background-color: white;"></span>
 						<span class="icon-bar" style="background-color: white;"></span>
 					  </button>
-
-						<!--a class="navbar-brand" rel="home" href="#" title="Home">
-							<span class="glyphicon glyphicon-home"></span> Home
-						</a-->
 					</div>
-					<div class="navbar-collapse collapse">
+
+					<!--div class="navbar-collapse collapse">
 					  <ul class="nav navbar-nav">
 						<li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
 						<li class="active"><a href="research.html"><span class="glyphicon glyphicon-dashboard"></span> Research</a></li>
-						<!--li><a href="projects.html"><span class="glyphicon glyphicon-cog"></span> Projects</a></li-->
 						<li><a href="experience.html"><span class="glyphicon glyphicon-cog"></span> Experience</a></li>
-						<li><a href="misc.html"><span class="glyphicon glyphicon-list-alt"></span> Miscellaneous</a></li>
-						<!--li><a href="ideal.html"><span class="glyphicon glyphicon-list-alt"></span> Ideal</a></li-->
+						<li><a href="misc.html"><span class="glyphicon glyphicon-list-alt"></span> Miscellaneous</a></li>						
 						<li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
 					  </ul>
+					</div-->
+					<div class="navbar-collapse collapse">
+					  <ul class="nav navbar-nav">
+						<li class="dropdown">
+						<a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a>
+						</li>
+						
+						<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Education <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="education.html">Ph.D.</a></li>
+							<li><a href="education.html #mtech2007">M.Tech.</a></li>
+							<li><a href="education.html #btech2003">B.Tech.</a></li>
+							<li><a href="education.html #hs1998">Schooling</a></li>
+						</ul>
+					    </li>
+						
+						<li class="active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Research <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="research.html">Publications</a></li>
+							<li><a href="research.html #res_exp">Experience</a></li>
+						</ul>
+					    </li>
+						
+						<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Experience <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="experience.html">Teaching</a></li>
+							<li><a href="experience.html #ind_exp">Industry</a></li>
+						</ul>
+					    </li>
+
+						<li><a href="misc.html"></span>Misc</a></li>
+
+						<li><a href="contact.html"></span>Contact</a></li>
+					  </ul>
 					</div>
+
 
 				</nav>
 			</div>
@@ -75,15 +100,9 @@
 	</div>
 
 
-	<!--<div class="container">
-		<div class="starter-template">
-			<p class="lead">
-				Hello!
-			</p>
-		</div>
-	</div>-->
+	<!--############## PAGE CONTENT ######################################################### -->
 
-	<div class="container">
+	<div class="container" id="publication">
 
 		<h2>Publications</h2>
 
@@ -95,75 +114,87 @@
 
 		<ol>
 			<li>
+				S. Misra and <strong>M. Khatua</strong>
+				"Packet-Centric Trade-off and Unfair Success Region in IEEE 802.11 WLANs",
+				<em><b>IEEE Transactions on Vehicular Technology</b></em>, (Accepted), DOI: 10.1109/TVT.2016.2600275. 
+				<a href="http://ieeexplore.ieee.org/document/7543530/" target="_blank"><img src="images/common/pdf_icon.png" style="height: 25px"></a>
+			</li>
+			<p> </p>
+			<li>
 				<strong>M. Khatua</strong> and S. Misra
 				"Exploiting Anomalous Slots for Multiple Channel Access in IEEE 802.11 Networks",
-				<em><b>Journal of Network and Computer Applications</b></em>, Manuscript ID: JNCA-D-16-00337 (Accepted: August 2016).
+				<em><b>Journal of Network and Computer Applications</b></em>, Vol. 74, pp. 56&ndash;65, August, 2016.
+				<a href="http://www.sciencedirect.com/science/article/pii/S1084804516301552" target="_blank"><img src="images/common/pdf_icon.png" style="height: 25px"></a>
 			</li>
 			<p> </p>
 			<li>
 				S. Misra, S. Singh and <strong>M. Khatua</strong>,
 				"MIRACLE: Mobility Prediction Inside a Coverage Hole Using Stochastic Learning Weak Estimator",
 				<em><b>IEEE Transactions on Cybernetics</b></em>, Vol. 46, No. 7, pp. 1486&ndash;1497, July, 2016.
-			</li>
-			<p> </p>
-			<li>
-				S. Misra and <strong>M. Khatua</strong>
-				"Packet-Centric Trade-off and Unfair Success Region in IEEE 802.11 WLANs",
-				<em><b>IEEE Transactions on Vehicular Technology</b></em>, Manuscript ID: VT-2016-00213.R1 (Accepted: July 2016).
+				<a href="http://ieeexplore.ieee.org/document/7297828/" target="_blank"><img src="images/common/pdf_icon.png" style="height: 25px"></a>
 			</li>
 			<p> </p>
 			<li>
 				<strong>M. Khatua</strong> and S. Misra,
 				"D2D: Delay-aware Distributed Dynamic Adaptation of Contention Window in Wireless Networks",
-				<em><b>IEEE Transactions on Mobile Computing</b></em>, Vol. 15, No. 2, pp. 322&ndash;335, February 2016
+				<em><b>IEEE Transactions on Mobile Computing</b></em>, Vol. 15, No. 2, pp. 322&ndash;335, February, 2016.
+				<a href="http://ieeexplore.ieee.org/document/7065252/" target="_blank"><img src="images/common/pdf_icon.png" style="height: 25px"></a>
 			</li>
 			<p> </p>
 			<li>
 				S. Das, <strong>M. Khatua</strong>, S. Misra and M. S. Obaidat,
 				"Quality-assured Secured Load Sharing in Mobile Cloud Networking Environment",
-				<em><b>IEEE Transactions on Cloud Computing</b></em>, Manuscript ID: TCCSI-2014-11-0554.R2 (Accepted: July 2015).
+				<em><b>IEEE Transactions on Cloud Computing</b></em>, (Accepted), DOI: 10.1109/TCC.2015.2457416.
+				<a href="https://www.computer.org/csdl/trans/cc/preprint/07160735-abs.html" target="_blank"><img src="images/common/pdf_icon.png" style="height: 25px"></a>
 			</li>
 			<p> </p>
 			<li>
 				S. Misra and <strong>M. Khatua</strong>,
 				"Semi-Distributed Backoff: Collision-Aware Migration from Random to Deterministic Backoff",
-				<em><b>IEEE Transactions on Mobile Computing</b></em>, Vol. 14, No. 5, pp. 1071&ndash;1084, May 2015
+				<em><b>IEEE Transactions on Mobile Computing</b></em>, Vol. 14, No. 5, pp. 1071&ndash;1084, May, 2015.
+				<a href="http://ieeexplore.ieee.org/document/6862049/" target="_blank"><img src="images/common/pdf_icon.png" style="height: 25px"></a>
 			</li>
 			<p> </p>
 			<li>
 				S. Misra, S. Mishra, and <strong>M. Khatua</strong>,
 				"Social Sensing-based Duty Cycle Management for Monitoring Rare Events in Wireless Sensor Networks",
-				<em><b>IET Wireless Sensor Systems</b></em>, Vol. 5, No. 2, pp. 68&ndash;75, April 2015.
+				<em><b>IET Wireless Sensor Systems</b></em>, Vol. 5, No. 2, pp. 68&ndash;75, April, 2015.
+				<a href="http://ieeexplore.ieee.org/document/7089363/" target="_blank"><img src="images/common/pdf_icon.png" style="height: 25px"></a>
 			</li>
 			<p> </p>
 			<li>
 				S. Misra, S. Singh, <strong>M. Khatua</strong> and M. S. Obaidat
 				"Extracting Mobility Pattern from Target Trajectory in Wireless Sensor Networks",
-				<em><b>International Journal of Communication Systems</b></em>, Vol. 28, No. 2, pp. 213&ndash;230, January 2015.
+				<em><b>International Journal of Communication Systems</b></em>, Vol. 28, No. 2, pp. 213&ndash;230, January, 2015.
+				<a href="http://dl.acm.org/citation.cfm?id=2854646" target="_blank"><img src="images/common/pdf_icon.png" style="height: 25px"></a>
 			</li>
 			<p> </p>
 			<li>
 				<strong>M. Khatua</strong> and S. Misra,
 				"CURD: Controllable Reactive Jamming Detection in Underwater Sensor	Networks",
-				<em><b>Pervasive and Mobile Computing</b></em>, Vol. 13, pp. 203&ndash;220, August 2014.
+				<em><b>Pervasive and Mobile Computing</b></em>, Vol. 13, pp. 203&ndash;220, August, 2014.
+				<a href="http://dl.acm.org/citation.cfm?id=2658202" target="_blank"><img src="images/common/pdf_icon.png" style="height: 25px"></a>
 			</li>
 			<p> </p>
 			<li>
 				S. Misra, S. Das, <strong>M. Khatua</strong> and M. S. Obaidat,
 				"QoS-Guaranteed Bandwidth Shifting and Redistribution in Mobile Cloud Environment",
-				<em><b>IEEE Transactions on Cloud Computing</b></em>, Vol. 2, No. 2, pp. 181&ndash;193, April-June 2014.
+				<em><b>IEEE Transactions on Cloud Computing</b></em>, Vol. 2, No. 2, pp. 181&ndash;193, April-June, 2014.
+				<a href="http://ieeexplore.ieee.org/document/6681872/" target="_blank"><img src="images/common/pdf_icon.png" style="height: 25px"></a>
 			</li>
 			<p> </p>
 			<li>
 				T. Ojha, <strong>M. Khatua</strong>  and S. Misra,
 				"Tic-Tac-Toe-Arch: A Self-organizing Virtual Architecture for Underwater Sensor Networks",
-				<em><b>IET Wireless Sensor Systems</b></em>, Vol. 3, No. 4, pp. 307&ndash;316, December 2013.
+				<em><b>IET Wireless Sensor Systems</b></em>, Vol. 3, No. 4, pp. 307&ndash;316, December, 2013.
+				<a href="http://ieeexplore.ieee.org/document/6655811/" target="_blank"><img src="images/common/pdf_icon.png" style="height: 25px"></a>
 			</li>
 			<p> </p>
 			<li>
 				S. Misra, S. Dash, <strong>M. Khatua</strong>, A. V. Vasilakos and M. S. Obaidat,
 				"Jamming in Underwater Sensor Networks: Detection and Mitigation",
-				<em><b>IET Communications</b></em>, Vol. 6, No. 14, pp. 2178&ndash;2188, September 2012.
+				<em><b>IET Communications</b></em>, Vol. 6, No. 14, pp. 2178&ndash;2188, September, 2012.
+				<a href="http://ieeexplore.ieee.org/document/6353315/" target="_blank"><img src="images/common/pdf_icon.png" style="height: 25px"></a>
 			</li>
 
 		</ol>
@@ -191,8 +222,6 @@
 				<em>Proceedings of the 14th International Conference on Distributed Computing and Networking</em>,
 				TIFR, Mumbai, January 3&ndash;6, 2013, pp. 118&ndash;132. (acceptance ratio - 14%).
 			</li>
-
-
 		</ol>
 
 		<p class="bigger"><strong>Book Chapter</strong></p>
@@ -219,126 +248,97 @@
 		</ol>
 		
 	</div>
-
-	<div class="container">
-		<h2>PhD</h2> <h5>(Jan'2011 &mdash; Sep'2015)</h5>
-
-		<p class="bigger" align="justify">
-			My research topic is in the broad area of wireless networks (WNs), 
-			specifically wireless local area networks (WLANs) and underwater sensor networks (UWSNs).
-			In my PhD thesis, I have attempted to explore some previously unaddressed issues on collision 
-			in WNs. In particular, I have considered both the <em>unintensional</em> and <em>intensional</em> collisions.
-			Addressing the unintensional collision in distributed control of shared channel access is challenging 
-			due to the lack of coordination in data transmission attempts generated from the users. 
-			On the other hand, intensional collision, i.e., jamming, in WNs highly degrades 
-			the network performance. Detection and prevention of different kind of jamming are also challenging.
+	<!--------------------------------------->
+	<hr>
+	<div class="container" id="res_exp">
+	
+		<h2>Research Experience</h2>
+		 
+		<p class="bigger">
+ 			I served as a <em>Senior Research Fellow</em> in a research and development project executed by
+			<a href="http://www.iitkgp.ac.in/sric/" target="_blank">Sponsored Research and Industrial Consultancy</a>, Indian Institute of Technology Kharagpur, India, for 2 years and 10 months. At persent I am a <em>Postdoctoral Research Fellow</em> of the CISDeM project running at <a href="http://www.sutd.edu.sg/" target="_blank">Singapore University of Technology and Design</a>, Singapore.
 		</p>
-
-		<p class="bigger" align="justify">
-		  When I started with my research back in 2011, I was quick to get familiar
-		  with the wireless networks and the network simulator NS-2. However, I
-		  soon realized another advanced network simulator NS-3. Therefore, I have shifted smoothly to the NS-3 
-			for the remaining works of my research problems.
-		  <!--a href="http://delay-tolerant-networks.blogspot.com/">DTN blog</a>!-->
-		</p>
+		 
+		<h3>Postdoc Experience</h3>
+		
+		<ul>
+		<li>
+			<h4><a href="http://temasek-labs.sutd.edu.sg/projects/cross-functional-information-system-for-decision-making-cisdem/" target="_blank">Cross-functional Information System for Decision Making (CISDeM)</a></h4>			
+			<p class="bigger">
+				<b>Designation:</b> 1. Research Assistant (May, 2015 &mdash; September, 2015).</br> 
+								<p style="text-indent: 7em;">2. Postdoctoral Research Fellow (September, 2015 &mdash; Till date).</p>
+			</p>
+			<p class="bigger">
+				<b>Sponsor:</b> <a href="http://www.mindef.gov.sg/" target="_blank">Ministry of Defence, Singapore</a>.
+			</p>
+			<p class="bigger" align="justify">
+				<b>Project Overview:</b> CISDeM is a cyber-information research program for decision making against network security threats. It adopts an inter-disciplinary research view &mdash; spanning security, natural language processing, machine learning, signal processing, and networking &mdash; to protect mission-critical network infrastructures. It stresses an experimental approach supported by a laboratory for sensing, computing, networking, visualization, and command-and-control. The synergistic research tracks will integrate to achieve holistic decision support for agile and proactive security informed by multi-modal and multi-layer empirical data.
+			</p>
+			<ul>
+			  <li>CISDeM Testbed
+			  </li>
+			  <li>Internet Text Mining
+			  </li>
+			  <li>Hidden Knowledge Inference
+			  </li>
+			  <li>Network & System Level Anomaly Detection
+			  </li>
+			  <li>Network level Trace-Back & Attribution
+			  </li>
+			  <li>IP Geolocation
+			  </li>
+			  <li>Network Control and Response to Attacks
+			  </li>
+			</ul>			
+ 
+		</li>
+		</ul>
+		
+		<h3>Pre-PhD Experience</h3>
 
 		<ul>
-			<li>University:: Indian Institute of Technology Kharagpur, India			
-			</li>
-			<li>Thesis:: Analysis of Collisions in Contention-Based Wireless Networks	
-			</li>
-			<li>Supervisor:: Dr. Sudip Misra
-			</li>
-			<li>Marks:: 9/10 (CGPA)
-			</li>
-		</ul>
-	</div>
-
-
-	<div class="container marketing">
-
-		<div class="row">
-			<div class="col-md-12">
-				<!--h3>Education</h3-->
-				<!--div class="row">
-					<div class="col-md-12">
-						<h4>Ph.D. (Pursuing) </h4>
-						<ul>
-							<li>University:: Indian Institute of Technology Kharagpur, India			
-							</li>
-							<li>Thesis:: Analysis of Collisions in Wireless Network	
-							</li>
-							<li>Supervisor:: Dr. Sudip Misra
-							</li>
-							<li>Marks:: 9/10 (CGPA)
-							</li>
-						</ul>
-					</div>
-				</div-->
-				<div class="row">
-					<div class="col-md-6">
-						<h4>M.Tech. in Information Technology, 2007 </h4> 
-						<ul>
-							<li>University:: Bengal Engineering and Science University, Shibpur, India			
-							</li>
-							<li>Thesis:: GSPIN: Gradient-based Sensor Protocol for Information via Negotiation in Wireless Sensor Network	
-							</li>
-							<li>Adviser:: Dr. Indrajit Banerjee				
-							</li>
-							<li>Marks:: 9.2/10 (CGPA)
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-6">
-						<h4>B.Tech. in Computer Science & Engineering, 2003 </h4> 
-						<ul>
-							<li>University:: University of Kalyani, India			
-							</li>
-							<!--li>College:: RCC Institute of Information Technology, Kolkata.	
-							</li-->
-							<li>Project:: Design and Implementation of an Inventory Control System
-							</li>
-							<li>Adviser:: A. K. Chandra, Systems Manager & Head, Education & Training Division, Regional Computer Center, Kolkata
-							</li>
-							<li>Marks:: 75.06 %
-							</li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-6">
-						<h4>Class-XII in Pure Science, 1998 </h4> 
-						<ul>
-							<li>Board:: West Bengal Council of Higher Secondary Education, India			
-							</li>
-							<!--li>School:: Narayangarh R. R. C. L. U. S. Niketan, Paschim Medinipur.
-							</li-->
-							<li>Marks:: 74.4 %
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-6">
-						<h4>Class-X in Basic Stream, 1996 </h4> 
-						<ul>
-							<li>Board:: West Bengal Board of Secondary Education, India			
-							</li>
-							<!--li>School:: Narayangarh R. R. C. L. U. S. Niketan, Paschim Medinipur.
-							</li-->
-							<li>Marks:: 77.77 %
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="container">
-			<p> 
+		<li> 
+			<h4><a href="http://www.sit.iitkgp.ernet.in/~smisra/swan/research.html" target="_blank">Towards Robust Efficient and Secure Data Acquisition in Underwater Sensor Networks (TRE)</a></h4>
+			<p class="bigger">
+			  <b>Designation:</b> Senior Research Fellow (May, 2010 &mdash; March, 2013).
 			</p>
-		</div>
+			<p class="bigger">
+			  <b>Sponsor:</b> <a href="http://deity.gov.in/" target="_blank">Department of Electronics and Information Technology</a>, Government of India.
+			</p>
+			<p class="bigger" align="justify">
+			  <b>Project Overview:</b>
+			Under the surface of water, networks of sensors can be used for different applications such as submarine monitoring, oil exploration, seismic monitoring and ocean mapping. Data acquisition scheme for those applications using underwater sensor networks (UWSNs) faces many challenges due to dynamic behavior of aquatic environment and acoustic communication. These behaviors include the varying levels of salinity, temperature and pressure under the surface of water, large and variable propagation delay, node mobility due to underwater current, frequent loss of connection among the nodes, very less bandwidth for communication, ambient noise of marine life, and error prone communication medium. Therefore, in this project we have scoped down our work to the investigation of the following issues.
+			</p>
+			<ul>
+			  <li>
+				Design and development of the following schemes for UWSNs
+				<ul>
+			  	<li>Delay Tolerant Routing Protocol
+				</li>
+				<li>Fault Tolerant Routing Protocol
+				</li>
+			  	<li>Jamming Detection Scheme
+				</li>
+			  	<li>Robust Architecture
+				</li>
+				</ul>
+			  </li>
+				<li>
+					Development of UWSN simulator using MATLAB
+			  </li>
+			  <li>
+					Development of UWSN simulator using NS-3
+			  </li>
+			</ul>			
+		</li>
+		</ul>
+
+		<hr>
+
 	</div>
 
+
+	<!--------------------------------------->
 	<div class="container">
 
 		<h2>Other Research Works</h2>
@@ -359,7 +359,7 @@
 	</div>
 
 
-
+	<!--------------------------------------->
 	<div class="container">
 		<h3>Google Scholar Profile</h3>
 				<p class="bigger">
@@ -368,6 +368,7 @@
 				</p>
 	</div>
 
+	<!--################# FOOTER ############################################################## -->
     <footer>
 		<div class="container" style="margin-top: 10px; padding-top: 10px;
 			padding-bottom: 10px; border-top: 1px solid #178ACC;">
