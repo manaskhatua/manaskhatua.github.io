@@ -23,7 +23,7 @@
   </head>
 
   <body>
-
+	<!--############## HEADER ############################################################## -->
 	<div class="container">
 		<div class="row page-header">
 			<div class="col-md-2">
@@ -41,9 +41,8 @@
 
 
 			<div class="col-md-6 navbar-wrapper">
-
-				<nav class="navbar  navbar-static-top" role="navigation"
-					 style="background-color: white; background-image: none;">
+				<!--nav class="navbar navbar-inverse navbar-static-top" role="navigation"-->
+				<nav class="navbar  navbar-static-top" role="navigation" style="background-color: white; background-image: none;">
 
 					<div class="navbar-header">
 					  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"
@@ -54,16 +53,56 @@
 						<span class="icon-bar" style="background-color: white;"></span>
 					  </button>
 
+						<!--a class="navbar-brand" rel="home" href="#" title="Home">
+							<span class="glyphicon glyphicon-home"></span> Home
+						</a-->
 					</div>
-					<div class="navbar-collapse collapse">
+
+					<!--div class="navbar-collapse collapse">
 					  <ul class="nav navbar-nav">
 						<li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-						<li><a href="research.html"><span class="glyphicon glyphicon-dashboard"></span> Research</a></li>
-						<!--li><a href="projects.html"><span class="glyphicon glyphicon-cog"></span> Projects</a></li-->
+						<li class="active"><a href="research.html"><span class="glyphicon glyphicon-dashboard"></span> Research</a></li>
 						<li><a href="experience.html"><span class="glyphicon glyphicon-cog"></span> Experience</a></li>
-						<li class="active"><a href="misc.html"><span class="glyphicon glyphicon-list-alt"></span> Miscellaneous</a></li>
-						<!--li class="active"><a href="ideal.html"><span class="glyphicon glyphicon-list-alt"></span> Ideal</a></li-->
+						<li><a href="misc.html"><span class="glyphicon glyphicon-list-alt"></span> Miscellaneous</a></li>
 						<li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+					  </ul>
+					</div-->
+
+					<div class="navbar-collapse collapse">
+					  <ul class="nav navbar-nav">
+						<li class="dropdown">
+						<a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a>
+						</li>
+						
+						<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Education <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="education.html">Ph.D.</a></li>
+							<li><a href="education.html #mtech2007">M.Tech.</a></li>
+							<li><a href="education.html #btech2003">B.Tech.</a></li>
+							<li><a href="education.html #hs1998">Schooling</a></li>
+						</ul>
+					    </li>
+						
+						<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Research <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="research.html">Publications</a></li>
+							<li><a href="research.html #res_exp">Experience</a></li>
+						</ul>
+					    </li>
+						
+						<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Experience <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="experience.html">Teaching</a></li>
+							<li><a href="experience.html #ind_exp">Industry</a></li>
+						</ul>
+					    </li>
+
+						<li class="active"><a href="misc.html"></span>Misc</a></li>
+
+						<li><a href="contact.html"></span>Contact</a></li>
 					  </ul>
 					</div>
 
@@ -72,7 +111,7 @@
 		</div>
 	</div>
 
-
+	<!--############## PAGE CONTENT ######################################################### -->
 	<div class="container">
 		 	
 		<h3><a href="http://abvym.org/" target="_blank">Akhil Bharat Vivekananda Yuva Mahamandal</a></h3>
@@ -168,7 +207,7 @@
 		</div>
 	</div>
 
-
+	<!----------------------------------->
 	<div class="container">
 		<h3>Down Memory Lane</h3>
 		<div class="container">
@@ -203,7 +242,7 @@
 
 
 
-
+	<!--################# FOOTER ############################################################## -->
     <footer>
 		<div class="container" style="margin-top: 10px; padding-top: 10px;
 			padding-bottom: 10px; border-top: 1px solid #178ACC;">
