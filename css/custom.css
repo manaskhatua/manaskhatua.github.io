@@ -1,9 +1,16 @@
 .bigger {
     font-size: 1.1em;
+    color: black;
 }
 .navbar {
     background-color: white;
 }
 .active {
   background-color: #EEEEEE;
+}
+.myblackfont {
+	color:	black;
+}
+.mybluefont {
+	color:	blue;
 }
